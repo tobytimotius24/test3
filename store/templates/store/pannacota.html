@@ -1,0 +1,31 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<!-- <h3 class="text-center" > Panna Cota Menu </h3> -->
+
+
+<section class = "bg-light">
+  <div class="container">
+    <div class="row">
+        <div class = "col-md-6"><img src="{% static 'images/pisangijo.png' %}" class="img-fluid">
+          <figcaption class="figure-caption text-center">Es Pisang Ijo</figcaption>
+          <p class="text-center"> Rp.100.000 </p>
+        </div>
+        <div class = "col-md-6"><img src="{% static 'images/raspberry.png' %}" class="img-fluid">
+          <figcaption class="figure-caption text-center">OG & Raspberry</figcaption>
+          <p class="text-center"> Rp.100.000 </p>
+        </div>
+      </div>
+      <div class="row">
+          <div class = "col-md-6"><img src="{% static 'images/snickers.png' %}" class="img-fluid">
+            <figcaption class="figure-caption text-center">Snickers</figcaption>
+            <p class="text-center"> Rp.100.000 </p>
+          </div>
+          <div class = "col-md-6"><img src="{% static 'images/cendol.png' %}" class="img-fluid">
+            <figcaption class="figure-caption text-center">Es Cendol</figcaption>
+            <p class="text-center"> Rp.100.000 </p>
+          </div>
+        </div>
+  </div>
+</section>
+{% endblock content %}

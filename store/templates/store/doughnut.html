@@ -1,0 +1,29 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+<section class = "bg-light">
+  <div class="container">
+    <div class="row">
+        <div class = "col-md-6"><img src="{% static 'images/custard.png' %}" class="img-fluid">
+          <figcaption class="figure-caption text-center">Nutella Smores</figcaption>
+        </div>
+        <div class = "col-md-6"><img src="{% static 'images/custard.png' %}" class="img-fluid">
+          <figcaption class="figure-caption text-center">Hokkaido Custard</figcaption>
+        </div>
+        <!-- <div class = "col-md-4"><img src="{% static 'images/custard.png' %}" class="img-fluid">
+          <figcaption class="figure-caption text-center">Hokkaido Custard</figcaption>
+        </div> -->
+      </div>
+      <div class="row">
+          <div class = "col-md-6"><img src="{% static 'images/matcha.png' %}" class="img-fluid">
+            <figcaption class="figure-caption text-center">Snickers</figcaption>
+          </div>
+          <div class = "col-md-6"><img src="{% static 'images/pbnj.png' %}" class="img-fluid">
+            <figcaption class="figure-caption text-center">Es Cendol</figcaption>
+          </div>
+        </div>
+  </div>
+</section>
+
+{% endblock content %}
