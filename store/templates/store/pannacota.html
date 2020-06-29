@@ -1,31 +1,34 @@
 {% extends 'store/main.html' %}
 {% load static %}
 {% block content %}
-<!-- <h3 class="text-center" > Panna Cota Menu </h3> -->
+<section>
+  <div class ="container" >
+    <div class="row border" style = "padding-top: 50px";>
+      The name panna cotta is not mentioned in Italian cookbooks before the 1960s,yet it is often cited as a traditional dessert of the northern Italian region of Piedmont. One unverified story says that it was invented by a Hungarian woman in the Langhe in the early 1900s. An 1879 dictionary mentions a dish called latte inglese 'English milk', made of cream cooked with gelatin and molded, though other sources say that latte inglese is made with egg yolks; perhaps the name covered any thickened custard-like preparation.
 
+      The Region of Piedmont includes panna cotta in its 2001 list of traditional food products of the region. Its recipe includes cream, milk, sugar, vanilla, gelatin, rum, and marsala poured into a mold with caramel. Another author considers the traditional flavoring to be peach eau-de-vie, and the traditional presentation not to have sauce or other garnishes.
 
-<section class = "bg-light">
-  <div class="container">
-    <div class="row">
-        <div class = "col-md-6"><img src="{% static 'images/pisangijo.png' %}" class="img-fluid">
-          <figcaption class="figure-caption text-center">Es Pisang Ijo</figcaption>
-          <p class="text-center"> Rp.100.000 </p>
-        </div>
-        <div class = "col-md-6"><img src="{% static 'images/raspberry.png' %}" class="img-fluid">
-          <figcaption class="figure-caption text-center">OG & Raspberry</figcaption>
-          <p class="text-center"> Rp.100.000 </p>
-        </div>
+      Panna cotta became fashionable in the United States in the 1990s.
+    </div>
+    <div class="row" style="padding-bottom: 50px; padding-top: 100px";>
+      <div class = "col-md-3 border"><img src="{% static 'images/pisangijo.png' %}" class="img-fluid">
+        <figcaption class="figure-caption text-center">Es Pisang Ijo</figcaption>
+        <p class="text-center"> Rp.100.000 </p>
       </div>
-      <div class="row">
-          <div class = "col-md-6"><img src="{% static 'images/snickers.png' %}" class="img-fluid">
-            <figcaption class="figure-caption text-center">Snickers</figcaption>
-            <p class="text-center"> Rp.100.000 </p>
-          </div>
-          <div class = "col-md-6"><img src="{% static 'images/cendol.png' %}" class="img-fluid">
-            <figcaption class="figure-caption text-center">Es Cendol</figcaption>
-            <p class="text-center"> Rp.100.000 </p>
-          </div>
-        </div>
+      <div class = "col-md-3 border"><img src="{% static 'images/raspberry.png' %}" class="img-fluid">
+        <figcaption class="figure-caption text-center">OG & Raspberry</figcaption>
+        <p class="text-center"> Rp.100.000 </p>
+      </div>
+      <div class = "col-md-3 border"><img src="{% static 'images/snickers.png' %}" class="img-fluid">
+        <figcaption class="figure-caption text-center">Snickers</figcaption>
+        <p class="text-center"> Rp.100.000 </p>
+      </div>
+      <div class = "col-md-3 border"><img src="{% static 'images/cendol.png' %}" class="img-fluid"> 
+        <figcaption class="figure-caption text-center">Es Cendol</figcaption>
+        <p class="text-center"> Rp.100.000 </p>
+      </div>
+    </div>
   </div>
 </section>
 {% endblock content %}
+

@@ -2,56 +2,47 @@
 {% load static %}
 {% block content %}
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
+	<ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+  	<div class="carousel-inner">
+  		<div class="carousel-caption d-none d-md-block">
+    		<h1> <p style="color:white"> Check out our latest bites!! </p></h1>
+  		</div>
     <div class="carousel-item active">
       <img class="d-block w-100" src="{% static 'images/slider.jpg'%}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{% static 'images/slider.jpg'%}" alt="Second slide">
+      <img class="d-block w-100" src="{% static 'images/rose.jpg'%}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{% static 'images/slider.jpg'%}" alt="Third slide">
+      <img class="d-block w-100" src="{% static 'images/cobain.jpg'%}" alt="Third slide">
     </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
-<!-- <div id ="myCarousel" class="carousel">
-		<ol class="carousel-indicators">
-			<li data-target ="#myCarousel" data-slide-to = "0" class="active"></li>
-			<li data-target ="#myCarousel" data-slide-to = "1"></li>
-			<li data-target ="#myCarousel" data-slide-to = "2"></li>
-		</ol>
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	</a>
+</div>
+<div class = "container" style="padding-top: 15px";>
+	<br>
+	<br>
 
-		<div class = "carousel-inner">
-			<div class = "item-active">
-				<img src="{% static 'images/test3.jpg'%}" alt = "Test1" class="img-responsive">
-			</div>
+When you have a great story about how your product or service was built to change lives, share it. The "About Us" page is a great place for it to live, too. Good stories humanize your brand, providing context and meaning for your product. What’s more, good stories are sticky -- which means people are more likely to connect with them and pass them on.
 
-			<div class = "item">
-				<img src="{% static 'images/test3.jpg'%}" alt = "Test2" class="img-responsive">
-			</div>
+Yellow Leaf Hammocks tells users about its product by describing how the hammocks empower artisan weavers and their families. The company breaks down different pieces of the story into sections that combine words and easily digestible graphics, painting a picture instead of big chunks of text. They're clear about why they're different: "Not a Charity," the page reads. And then: "This is the basis for a brighter future, built on a hand up, not a handout."
 
-			<div class = "item">
-				<img src="{% static 'images/test3.jpg'%}" alt = "Test3" class="img-responsive">
-			</div>
+Every company has a story to tell, so break out your storytelling skills from that random English class you took years ago and put them to work on your "About Us" page. Using descriptive and emotive copy and gorgeous graphics, an "About Us" page with a story works harder for your business than a generic one.</div>
 
-		</div>
-</div> -->
-	<!-- <div class="row">
+<!-- 	<div class="row">
 		<div class="col-lg-4">
-			<img class="thumbnail" src="{% static 'images/bon2.png' %}">
+			<img class="thumbnail" src="{% static 'images/placeholder.png' %}">
 
 			<div class="box-element product">
 				<h6><strong>Dessert Box</strong></h6>

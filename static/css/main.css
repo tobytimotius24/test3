@@ -78,7 +78,6 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 	padding-right:10px;
 
-
 }
 
 .chg-quantity{
@@ -116,15 +115,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .img {
-		position:relative;
+	position:relative;
     text-align:center;
     margin:10px;
-		background-color: blue;
+	background-color: blue;
 }
 
 
 .bglight{
-	background-color: #eeeeee!important;
+	background-color: #4f868c!important;
 }
 
 .figure-caption{
@@ -138,3 +137,18 @@ h1,h2,h3,h4,h5,h6{
 	width:20%;
 	height:20%;
 }
+
+.container-fluid{
+   padding: 0;
+   min-height: 20%;
+}
+
+.carousel-item {
+  height: 350px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
